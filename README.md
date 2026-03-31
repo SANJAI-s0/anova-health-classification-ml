@@ -11,6 +11,7 @@
 
 ## 📌 Table of Contents
 - [Overview](#overview)
+- [Project Structure](#project-structure)
 - [Project Workflow](#project-workflow)
 - [Problem Statement](#problem-statement)
 - [Dataset Characteristics](#dataset-characteristics)
@@ -26,6 +27,21 @@
 This repository contains a production-grade Machine Learning pipeline built for **Anova Insurance**. The system automates the health risk assessment of applicants, categorizing them as **'Healthy' (0)** or **'Unhealthy' (1)**. By analyzing physiological metrics and lifestyle data, the model provides an objective basis for **Premium Pricing Decisions**.
 
 🔗 **Repository**: [https://github.com/SANJAI-s0/anova-health-classification-ml.git](https://github.com/SANJAI-s0/anova-health-classification-ml.git)
+
+---
+
+## 📂 Project Structure
+```text
+ML_Model/
+├── Dataset/                   # Preprocessed healthcare datasets
+├── Project/                   # Problem statement (PDF)
+├── plots/                     # Generated performance visualizations
+├── health_classification.py   # Main ML pipeline script
+├── best_model.pkl             # Serialized best-performing model
+├── requirements.txt           # Python dependencies
+├── .gitignore                 # Git ignore configuration
+└── LICENSE                    # MIT License
+```
 
 ---
 
